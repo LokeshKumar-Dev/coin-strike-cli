@@ -45,7 +45,7 @@ export default function Settings() {
   //if user is not logged in then navigate to login page
   if (user && Object.keys(user).length > 0) {
     return (
-      <div className="d-flex">
+      <div className="d-flex d-no">
         <form className="addForm" style={{ width: "60%", height: "60%" }}>
           <h2 className="fw-500">User Details</h2>
           <br />

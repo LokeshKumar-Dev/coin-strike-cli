@@ -257,6 +257,14 @@
     .trans--entry-avatar {
         margin-right: .5rem;
     }
+
+    .d-flex {
+        padding: 2rem 1rem;
+    }
+
+    .d-no {
+        width: 100%;
+    }
 }
 
 /* media screen for 730px */
@@ -295,12 +303,16 @@
     .trans--entry-amount {
         width: 20%;
     }
+
+    #d-n-1 {
+        display: none;
+    }
 }
 
 /* media screen for 450px */
 @media screen and (max-width: 430px) {
     .content {
-        height: 100vh!important;
+        height: 100vh !important;
         margin: 0 .5rem;
     }
 
